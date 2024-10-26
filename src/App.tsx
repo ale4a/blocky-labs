@@ -1,12 +1,12 @@
 import "./App.css";
-import logo from "../public/logo.jpg";
+import Footer from "./components/Footer";
+import logo from "/logo.jpg";
 
 function App() {
   return (
     <div>
-      <a href="https://blocky-labs.com" target="_blank">
-        <img src={logo} className="logo" alt="Vite logo" />
-      </a>
+      <img src={logo} className="logo" alt="Vite logo" />
+      <Footer />
     </div>
   );
 }
